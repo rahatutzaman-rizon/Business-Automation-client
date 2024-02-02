@@ -7,7 +7,7 @@ const AllCar = () => {
 const [car,setCar]=useState([]);
     useEffect(()=>{
         const fetchData = async () => {
-            const result = await axios.get('http://localhost:5000/car');
+            const result = await axios.get('https://business-server11.onrender.com/car');
       
             setCar(result.data);
           

@@ -16,7 +16,7 @@ const Car = () => {
 
   const saveCar=async ()=>{
     try{
-      const response=await axios.post('http://localhost:5000/car',{
+      const response=await axios.post('https://business-server11.onrender.com/car',{
       carType,
       carName,
       carModel,

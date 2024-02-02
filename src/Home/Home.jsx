@@ -41,6 +41,7 @@ const Home= () => {
         <li className="ml-6 btn btn-danger"><NavLink to='/'>Home</NavLink></li>
         <li className="ml-6 btn btn-danger"><NavLink to='/car'>Add Car</NavLink></li>
         
+        <li className="ml-6 btn btn-danger"><NavLink to='/table'>Datatable</NavLink></li>
         
     </>
     return (
